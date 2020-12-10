@@ -36,7 +36,7 @@ html,body {
 }
 /* front side */
 .card .front {
-    z-index: 2;
+    z-index: auto;
     backface-visibility: hidden; 
 }
 .card .front header {
@@ -89,7 +89,7 @@ html,body {
 }
 /* the back side */
 .card .back {
-    z-index: 1;
+    z-index: auto;
     transform: rotateY(180deg); /*  تجعل هاته الخاصية الجزء الخلفي مقلوبا بيحث عند وضع المؤشر تنقلب الى وضعها الاصلي */
     backface-visibility: hidden;
 }
